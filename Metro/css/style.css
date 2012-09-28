@@ -1,0 +1,39 @@
+@charset="utf8"
+
+
+body{
+	margin:0px;
+	padding:0px;
+	width: 960px;
+	background-color:#eeff3c;
+}
+.container{
+
+}
+#image{
+	background: url(../img/house.jpg) no-repeat;
+	width: 500px;
+	height: 420px;
+}
+
+#login{
+	float:left;
+	margin-top: -280px;
+	margin-left: 563px;
+}
+ #search{
+float:right;
+}
+.property-img{
+	background:url(../img/home1.jpg) no-repeat;
+	width: 448px;
+	height: 77px;
+	text-indent: -99999px;
+}
+.address-info{
+	width:81%;
+	float:right;
+	font-weight: bold;
+	margin-top: -45px;
+
+}

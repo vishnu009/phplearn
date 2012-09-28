@@ -1,0 +1,354 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"label",
+				"label	Tag"
+			],
+			[
+				"la",
+				"label	Tag"
+			],
+			[
+				"opt",
+				"option	Tag"
+			],
+			[
+				"in",
+				"Inventory"
+			],
+			[
+				"det",
+				"details"
+			],
+			[
+				"marin",
+				"margin-top"
+			],
+			[
+				"te",
+				"text-indent"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"fo",
+				"font-family"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "fancy/index.html",
+			"settings":
+			{
+				"buffer_size": 7612,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"utf-8\">\n  <title>Notice Board</title>\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <meta name=\"description\" content=\"Housing ,Rentals\">\n  <meta name=\"author\" content=\"ourCompany\">\n\n  <!-- Le styles -->\n  <link href=\"css/bootstrap.css\" rel=\"stylesheet\">\n  <link href=\"css/bootstrap-responsive.min.css\" rel=\"stylesheet\">\n\n  <link href=\"css/style.css\" rel=\"stylesheet\">\n\n  <style>\n  body {\n    padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */\n  }\n  </style>\n\n</head>\n<body>\n <div class=\"container-fluid\">  \n     <div class=\"accordion\" id=\"accordion2\">  \n            <div class=\"accordion-group\">  \n              <div class=\"accordion-heading\">  \n                <a class=\"accordion-toggle\" data-toggle=\"collapse\" data-parent=\"#accordion2\" href=\"#collapseOne\">  \n                  New Appointment   \n                </a>  \n              </div>  \n              <div id=\"collapseOne\" class=\"accordion-body collapse\" style=\"height: 0px; \">  \n                <div class=\"accordion-inner\">  \n                  <form class =\"well span3\">\n <label>Subject</label>\n <input type =\"text\" class=\"span3\" />\n <label>Due Date</label>\n  <input type =\"date\" value>\n  <label>Completed Date</label>\n  <input type =\"date\" value>\n  <label>Type</label>\n  <div class=\"controls\">\n    <select id=\"select01\">\n    <option>Conversation</option>\n    <option>Document</option>\n    <option>Email</option>\n    <option>Email</option>\n    <option>Fax</option>\n    <option>Letter</option>\n    <option>Meeting</option>\n    <option>Note</option>\n    <option>Phone Call</option>\n    <option>Task</option>\n    </select>\n      </div>\n      <label>Priority</label>\n      <input type=\"text\" />\n      <label>Comments</label>\n      <textarea rows=\"6\" cols=\"12\"></textarea>\n      <label> User </label>\n      <div class=\"controls\">\n      <select id=\"select01\">\n          <option>Administrtor</option>\n          <option>Manager</option>\n          <option>Sub-Manager</option>\n        </select>\n      </div>\n      <label> Re occurance </label>\n      <div class=\"controls\">\n      <select id=\"select01\">\n         <option>Daily</option>\n         <option>Weekly</option>\n         <option>Fortnightly</option>\n         <option>Monthly</option>\n         <option>Quarterly</option>\n         <option>Yearly</option>\n       </select>\n      </div>\n   </form>\n          </div>  \n              </div>  \n            </div>  \n            <div class=\"accordion-group\">  \n              <div class=\"accordion-heading\">  \n                <a class=\"accordion-toggle\" data-toggle=\"collapse\" data-parent=\"#accordion2\" href=\"#collapseTwo\">  \n                 New Tasks \n                </a>  \n              </div>  \n              <div id=\"collapseTwo\" class=\"accordion-body collapse\">  \n                <div class=\"accordion-inner\">  \n                  <form class =\"well span3\">\n <label>Subject</label>\n <input type =\"text\" class=\"span3\" />\n <label>Due Date</label>\n  <input type =\"date\" value>\n  <label>Completed Date</label>\n  <input type =\"date\" value>\n  <label>Type</label>\n  <div class=\"controls\">\n    <select id=\"select01\">\n    <option>Conversation</option>\n    <option>Document</option>\n    <option>Email</option>\n    <option>Email</option>\n    <option>Fax</option>\n    <option>Letter</option>\n    <option>Meeting</option>\n    <option>Note</option>\n    <option>Phone Call</option>\n    <option>Task</option>\n    </select>\n      </div>\n      <label>Priority</label>\n      <input type=\"text\" />\n      <label>Comments</label>\n      <textarea rows=\"6\" cols=\"12\"></textarea>\n      <label> User </label>\n      <div class=\"controls\">\n      <select id=\"select01\">\n          <option>Administrator</option>\n          <option>Manager</option>\n          <option>Sub-Manager</option>\n        </select>\n      </div>\n   </form>\n           </div>  \n              </div>  \n            </div>  \n            <div class=\"accordion-group\">  \n              <div class=\"accordion-heading\">  \n                <a class=\"accordion-toggle\" data-toggle=\"collapse\" data-parent=\"#accordion2\" href=\"#collapseThree\">  \n                 New Maintainance  \n                </a>  \n              </div>  \n              <div id=\"collapseThree\" class=\"accordion-body collapse\">  \n                <div class=\"accordion-inner\">  \n                  <form class =\"well span3\">\n <label>Subject</label>\n <input type =\"text\" class=\"span3\" />\n <label>Due Date</label>\n  <input type =\"date\" value>\n  <label>Completed Date</label>\n  <input type =\"date\" value>\n  <label>Type</label>\n  <div class=\"controls\">\n    <select id=\"select01\">\n    <option>Conversation</option>\n    <option>Document</option>\n    <option>Email</option>\n    <option>Email</option>\n    <option>Fax</option>\n    <option>Letter</option>\n    <option>Meeting</option>\n    <option>Note</option>\n    <option>Phone Call</option>\n    <option>Task</option>\n    </select>\n      </div>\n      <label>Priority</label>\n      <input type=\"text\" />\n      <label>Comments</label>\n      <textarea rows=\"6\" cols=\"12\"></textarea>\n      <label> User </label>\n      <div class=\"controls\">\n      <select id=\"select01\">\n          <option>Administrator</option>\n          <option>Manager</option>\n          <option>Sub-Manager</option>\n        </select>\n      </div>\n\n      \n      \n\n\n    </form>\n\n                </div>  \n              </div>  \n            </div>  \n             <div class=\"accordion-group\">  \n              <div class=\"accordion-heading\">  \n                <a class=\"accordion-toggle\" data-toggle=\"collapse\" data-parent=\"#accordion2\" href=\"#collapseFour\">  \n                 New Inspection\n                </a>  \n              </div>  \n              <div id=\"collapseFour\" class=\"accordion-body collapse\">  \n                <div class=\"accordion-inner\">  \n                 <form class =\"well span3\">\n <label>Subject</label>\n <input type =\"text\" class=\"span3\" />\n <label>Due Date</label>\n  <input type =\"date\" value>\n  <label>Completed Date</label>\n  <input type =\"date\" value>\n  <label>Type</label>\n  <div class=\"controls\">\n    <select id=\"select01\">\n    <option>Conversation</option>\n    <option>Document</option>\n    <option>Email</option>\n    <option>Email</option>\n    <option>Fax</option>\n    <option>Letter</option>\n    <option>Meeting</option>\n    <option>Note</option>\n    <option>Phone Call</option>\n    <option>Task</option>\n    </select>\n      </div>\n      <label>Priority</label>\n      <input type=\"text\" />\n      <label>Comments</label>\n      <textarea rows=\"6\" cols=\"12\"></textarea>\n      <label> User </label>\n      <div class=\"controls\">\n      <select id=\"select01\">\n       <option>Administrator</option>\n        <option>Manager</option>\n        <option>Sub-Manager</option>\n        </select>\n      </div>\n\n      </form>\n         </div>  \n              </div>  \n            </div>  \n  <button type=\"button\" class=\"btn btn-primary\">Save</button>\n          </div>  \n    </div>  \n\n       <!-- Placed at the end of the document so the pages load faster -->\n       <script>\n       $('#mytabs a[href=\"#general\"]').tab('show');\n        $('#mytabs a[href=\"#details\"]').tab('show'); \n        $('#mytabs a[href=\"#description\"]').tab('show'); \n        $('#mytabs a[href=\"#custom\"]').tab('show');\n        $('#mytabs a[href=\"#inventory\"]').tab('show');\n        $('#mytabs a[href=\"#actions\"]').tab('show');\n        $('#mytabs a[href=\"#weblink\"]').tab('show');\n\n      })\n       </script>\n       <script src=\"js/jquery.js\"></script>\n       <script src=\"js/bootstrap-dropdown.js\"></script>\n       <script src=\"js/bootstrap-scrollspy.js\"></script>\n       <script src=\"js/bootstrap-tab.js\"></script>\n       <script src=\"js/bootstrap-tooltip.js\"></script>\n       <script src=\"js/bootstrap-popover.js\"></script>\n       <script src=\"js/bootstrap-button.js\"></script>\n       <script src=\"js/bootstrap-collapse.js\"></script>\n       <script src=\"js/bootstrap-carousel.js\"></script>\n       <script src=\"js/bootstrap-typeahead.js\"></script>\n\n\n\n    \n</body>  \n</html>  ",
+			"file": "test2.html",
+			"file_size": 8299,
+			"file_write_time": 129928355189774777,
+			"settings":
+			{
+				"buffer_size": 8038,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "test1.html",
+			"settings":
+			{
+				"buffer_size": 5583,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"in",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"ind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"i",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"",
+				"Indentation: Reindent Lines"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/vishnu/Desktop/website/metro/f1.html",
+		"/C/Users/vishnu/Desktop/website/metro/add.html",
+		"/C/Users/vishnu/Desktop/website/metro/test2.html",
+		"/C/Users/vishnu/Desktop/website/metro/property1.html",
+		"/C/Users/vishnu/Desktop/website/metro/test.html",
+		"/C/Users/vishnu/Desktop/website/metro/property_fom.html",
+		"/C/Users/vishnu/Desktop/website/metro/property.html",
+		"/C/Users/vishnu/Desktop/website/metro/newtenants.html",
+		"/C/Users/vishnu/Desktop/website/metro/main.html",
+		"/C/Users/vishnu/Desktop/website/metro/new-metro/test1.html",
+		"/C/Users/vishnu/Desktop/website/metro/new-metro/property1.html",
+		"/C/Users/vishnu/Desktop/website/metro/new-metro/test2.html",
+		"/C/Users/vishnu/Desktop/website/metro/deatils1.html",
+		"/C/Users/vishnu/Desktop/website/metro/css/style.css",
+		"/C/Users/vishnu/Desktop/website/metro/123478.html",
+		"/C/Users/vishnu/Desktop/website/metro/123456.jsp",
+		"/C/Users/vishnu/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/vishnu/AppData/Roaming/Sublime Text 2/Packages/Default/sublime-text2/editor.js",
+		"/C/Users/vishnu/Desktop/website/metro/css/bootstrap-responsive.css",
+		"/D/test.html",
+		"/C/xampp/htdocs/vishnulearning/administrator/components/com_joomgallery/views/maintenance/tmpl/default_database.php",
+		"/C/xampp/htdocs/vishnulearning/administrator/components/com_joomgallery/views/editimages/tmpl/index.html",
+		"/C/xampp/htdocs/vishnulearning/administrator/components/com_joomgallery/views/batchupload/tmpl/default.php",
+		"/C/xampp/htdocs/vishnulearning/administrator/components/com_joomgallery/views/editimages/tmpl/form.php",
+		"/C/Users/vishnu/Desktop/website/metro/new.html",
+		"/C/Users/vishnu/Desktop/1234.rhtml",
+		"/C/Users/vishnu/Desktop/website/metro/metro.sublime-project",
+		"/C/Users/vishnu/Desktop/leranhtml5/vishnu1.html",
+		"/C/Users/vishnu/Desktop/yacvic_static/internal.html",
+		"/C/Users/vishnu/Desktop/antihate_static/form_comments.html",
+		"/C/Users/vishnu/Desktop/website/metro/tenants.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Admini",
+			">",
+			"Furnished",
+			"Defined",
+			"weblink",
+			"        <",
+			"../",
+			"html5",
+			"zen codinh",
+			"../assetts"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "fancy/index.html",
+					"settings":
+					{
+						"buffer_size": 7612,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7382,
+								7382
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2764.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "test2.html",
+					"settings":
+					{
+						"buffer_size": 8038,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3663,
+								3663
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1946.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "test1.html",
+					"settings":
+					{
+						"buffer_size": 5583,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5566,
+								5566
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2352.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/Users/vishnu/Desktop/website/metro/metro.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 280.0,
+	"status_bar_visible": true
+}
