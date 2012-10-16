@@ -9,9 +9,7 @@ body{
 </style>
 </head>
 <body>
-	
-
-
+   
 <?php
 $user ="vishnu";
 $pass="computer";
