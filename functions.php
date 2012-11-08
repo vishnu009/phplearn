@@ -13,9 +13,15 @@
 			$a='abc ';
 			return($a);
 		}
+		function writeName($fname){
+			echo $fname  ;
+		}
 	echo add();
 	echo '<hr/><br/>';
 	echo dispalay();
+	echo '<hr/><br/>';
+	echo 'my Name is  <br/>';
+	echo writeName("vishnu");
 	?>
 
 </body>
