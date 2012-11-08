@@ -11,8 +11,8 @@ body{
 <body>
 	<form action="input.php" method="post">
 		<label>Enter your  First Name :
-			<input type="text" id="fname" name="label"/>
-			</fname><br/>
+			<input type="text" id="fname" name="fname"/>
+			</label><br/>
 			<label>Enter your Last Name :
 			<input type="text" id="lname" name="lname"/><br/>
 			</label>
