@@ -21,10 +21,22 @@ switch ($number) {
 		case '3':	
 			echo 'the value now is three';
 			break;
-	default:
+	   default:
 		echo ' please enter a number between 1 and 3';
 		break;
 }
+$cars =array("bmw","mclaren","volvo","jeep","A380");
+echo'<br/><br/>';
+
+echo $cars['0'];
+echo'<br/><br/>';
+$i=1;
+while($i<=10)
+  {
+  echo "The number is " . $i . "<br />";
+  $i++;
+  }
+
 ?>
 </body>
 </html>

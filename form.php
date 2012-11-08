@@ -17,9 +17,9 @@ body{
 			<input type="text" id="lname" name="lname"/><br/>
 			</label>
 			<input type="submit" value="Go" />
-			</form>
+	</form>
 
 </body>
-
+</html>
 
 
