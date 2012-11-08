@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Notice Board</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Housing ,Rentals">
+	<meta name="author" content="ourCompany">
+
+	<!-- Le styles -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+
+	<link href="css/style.css" rel="stylesheet">
+
+	<style>
+	body {
+		padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+	}
+	</style>
+
+</head>
+<body>
+
+ <div class="navbar"  id ="noticeboard">
+	<h1> Property Details </h1>
+	<div class ="property-img">
+		sample image
+
+
+	</div>
+	 <div class="address-info">
+		<p>Reference Number:12345677888 </p>
+	</div>
+</div>
+
+
+<div class ="tabs">
+	<ul id ="mytabs" class ="nav nav-tabs">
+		<li class="active">
+			<a href="#general" data-toggle="tab">General</a></li>
+			<li class>
+				<a href="#details" data-toggle="tab">Details</a></li>
+				<li class>
+					<a href="#description" data-toggle="tab">Description</a></li>
+					<li class>
+						<a href="#custom" data-toggle="tab">Custom</a></li>
+						<li class>
+							<a href="#inventory" data-toggle="tab">Inventory</a></li>
+							<li class>
+								<a href="#actions" data-toggle="tab">Actions</a></li>
+								<li class>
+									<a href="#weblink" data-toggle="tab">Weblink</a></li>
+						 </div>
+								<div id="myTabContent"class="tab-content">
+									<div class="tab-pane fade active in "id="general">
+
+							 <form class ="well span3">
+								<label>Reference</label>
+								<input type ="text" class="span3" />
+								<label>Address</label>
+								<input type ="text" class="span3" />
+					 
+					 
+						<label>File AS</label>
+						<div class="controls">
+							<select id="select01">
+								<option>something</option>
+								<option>2</option>
+								<option>3</option>
+							</select>
+						</div>
+					 
+			<label>Type</label>
+						<div class="controls">
+							<select id="select01">
+								<option>something</option>
+								<option>2</option>
+								<option>3</option>
+							</select>
+						</div>
+			<label>Zone</label>
+			 <div class="controls">
+							<select id="select01">
+								<option>something</option>
+								<option>2</option>
+								<option>3</option>
+							</select>
+						</div>
+						<label>Residental Type</label>
+						<div class="controls">
+							<select id="select01">
+								<option>Residental</option>
+								<option>Commercial</option>
+								<option>Leased</option>
+							</select>
+						</div>
+			<label>Map Number</label>
+						<input type ="text" class="span3" />
+			<label>Key Number</label>
+						<input type ="text" class="span3"/>
+			<label>Access</label>
+						<input type ="text" class="span3" />
+						<label>Manager</label>
+						<input type ="text" class="span3"/>
+						<label>Letting Agent</label>
+						<input type ="text" class="span3"/>
+						<button class="btn btn-primary">Save</button>
+						<button class ="btn btn-primary">Reset</button>
+						<button class ="btn btn-primary">Print PDF</button>
+
+						
+					 
+			</form>
+				
+									</div>
+									<div class="tab-pane fade"id="details">
+										<form class ="well span3">
+								<label>Rent</label>
+								<input type ="text" class="span3" />
+								<label>Rent Due</label>
+								<div class="controls">
+							<select id="select01">
+								<option>Monthly</option>
+								<option>Fortnightly</option>
+								<option>four weekly</option>
+								<option>weekly</option>
+							</select>
+							</select>
+						</div>
+							 
+					 
+					 
+						<label>Periods in advance</label>
+						<div class="controls">
+							<select id="select01">
+								<option>something</option>
+								<option>2</option>
+								<option>3</option>
+							</select>
+						</div>
+					 
+			<label>Rent Commission(%)</label>
+						<input type ="text" class="span3" />
+						<label>Rent Commission($)</label>
+						<input type ="text" class="span3" />
+
+			<label>Management expiry </label>
+					<form class ="container">
+					 <input type ="date" value>
+
+						<label> Available Date</label>
+						<form class ="container">
+						<input type ="date" value>
+									 
+			<label>Comments</label>
+			<input type ="text" class="span3" />
+			<label>Late Fee</label>
+			 <div class="controls">
+							<select id="select01">
+								<option>Amount</option>
+								<option>percentage</option>
+								<option>period </option>
+							</select>
+							 <input type ="text" class="span3" />
+				 </div>
+			<label>Bond Required</label>
+						<input type ="text" class="span3" />
+						<label>Rebate</label>
+						<input type ="text" class="span3"/>
+						<label>Outgoing commission</label>
+						<input type ="text" class="span3"/>
+						<label>Maintainace commission</label>
+						<input type ="text" class="span3"/>
+						<label>Insuarace Renewal</label>
+						<form class ="container">
+						<input type ="date" value />  
+						
+
+						<button class="btn btn-primary">Save</button>
+						<button class ="btn btn-primary">Reset</button>
+						<button class ="btn btn-primary">Print PDF</button>
+
+						
+					 
+			</form>
+									</div>
+					 <div class="tab-pane fade"id="description">
+								<form class ="well span6">
+									<label>Portal Push Status</label>
+									<div class="controls">
+								 <select id="select01">
+									<option>Monthly</option>
+									<option>Fortnightly</option>
+									<option>four weekly</option>
+									<option>weekly</option>
+								</select>
+							 </div>
+									
+									<label>HeadLine</label>
+									<input type ="text" class="span3" />
+									<label>Description</label>
+									<input type ="text" class="span3" />
+									<label>Bedrooms</label>
+									<div class="controls">
+								 <select id="select01">
+									 <option>Not Defined</option>
+									 <option>Studio</option>
+									 <option>1</option>
+									 <option>2</option>
+									 <option>3</option>
+									 <option>4</option>
+									 <option>5</option>
+									 <option>6</option>
+									 <option>7+</option>
+									 </select>
+								 </div>
+									<label>Bathrooms</label>
+									<div class="controls">
+								 <select id="select01">
+
+									 <option>Not Defined</option>
+									 <option>1</option>
+									 <option>2</option>
+									 <option>3</option>
+									 <option>4</option>
+									 <option>5</option>
+									 <option>6</option>
+									 <option>7+</option>
+									 </select>
+								 </div>
+							 <label>Car Spaces</label>
+							 <div class="controls">
+								 <select id="select01">
+									 <option>Not Defined</option>
+									 <option>1</option>
+									 <option>2</option>
+									 <option>3</option>
+									 <option>4</option>
+									 <option>5</option>
+									 <option>6</option>
+									 <option>7+</option>
+									 </select>
+								 </div>
+									 <label>Fenced</label>
+									 <div class="controls">
+									 <select id="select01">
+										<option>Not Defined</option>
+										<option>Yes</option>
+										<option>No</option>
+									</select>
+								</div>
+									<label>Pets Allowed</label>
+									<select id="select01">
+										<option>Not Defined</option>
+										<option>Yes</option>
+										<option>No</option>
+									</select>
+									<label>Furnished</label>
+									<select id="select01">
+										<option>Not Defined</option>
+										<option>Yes</option>
+										<option>No</option>
+									</select>
+					 
+						<button class="btn btn-primary">Save</button>
+						<button class ="btn btn-primary">Reset</button>
+						<button class ="btn btn-primary">Print PDF</button>
+					 </form>
+										
+						 </div>
+
+									<div class="tab-pane fade"id="custom">
+										<p>something in custom</p>
+									</div>
+
+
+								<div class="tab-pane fade"id="inventory">
+								 <form class ="well span5">
+									<label>Comments</label>
+									<input type="text" class="span3"/>
+										<label>Room:</label>
+										<div class="controls">
+										<select id="select01">
+									 <option>Not Defined</option>
+									 <option>Studio</option>
+									 <option>1</option>
+									 <option>2</option>
+									 <option>3</option>
+									 <option>4</option>
+									 <option>5</option>
+									 <option>6</option>
+									 <option>7+</option>
+									 </select>
+								 </div>
+										<label>Item:</label>
+										<select id="select01">
+									 <option>Not Defined</option>
+									 <option>Studio</option>
+									 <option>1</option>
+									 <option>2</option>
+									 <option>3</option>
+									 <option>4</option>
+									 <option>5</option>
+									 <option>6</option>
+									 <option>7+</option>
+									 </select>
+									 <label>Quantity</label>
+									 <input type="text"class="span3"/>
+									 <label>Notes</label>
+									 <textarea rows="15"cols="5"> </textarea>
+									 <br/><br/>
+									 <button>New</button>
+									 <button>Open</button>
+									 <button>Delete</button><br /><br/>
+									 <button class="btn btn-primary">Save</button>
+										<button class ="btn btn-primary">Reset</button>
+										<button class ="btn btn-primary">Print PDF</button>
+
+						
+					 
+							 </form>
+
+
+
+
+
+									
+							 
+									</div>
+									<div class="tab-pane fade"id="actions">
+										<form class="well span3">
+										<label>Show All</label>
+										 <div class="controls">
+										<select id="select01">
+									 <option>All</option>
+									 <option>Conversation</option>
+									 <option>Document</option>
+									 <option>Email</option>
+									 <option>Fax</option>
+									 <option>Letter</option>
+									 <option>Meeting</option>
+									 <option>Note</option>
+									 <option>Phone Call</option>
+									 <option>Task</option>
+									 <option>Maintainace</option>
+									 <option>Inspection</option>
+									 </select>
+								 </div>
+								 <label>Actions for this Property</label>
+								 <input type="checkbox" >Show Completed actions
+
+									 <div id="inspection">
+										<p>Inspection</p>
+									</div>
+									<div id="Letter">
+										<p>Some Letter </p>
+									</div>
+									<button class="btn btn-primary">Add New</button>
+									<button class ="btn btn-primary">Reset</button>
+									<button class ="btn btn-primary">Print PDF</button>
+	 
+							 </form>
+
+						</div>
+					 <div class="tab-pane fade"id="weblink">
+										<form class="well span3">
+											<label>Show Additional Details to be provided to</label>
+											<div class="controls">
+											<select id="select01">
+										 <option>Trade Me </option>
+										 <option>Realestate view</option>
+										 <option>Realestate.com.au</option>
+										 </select>
+								 </div>
+								 <label>Pricing Type</label>
+											<div class="controls">
+											<select id="select01">
+											<option>Asking Price </option>
+											<option>Price by Negotation</option>
+											<option>Enquires Offer</option>
+										 </select>
+								 </div>
+								 <button class="btn btn-primary">Save</button>
+									<button class ="btn btn-primary">Reset</button>
+									<button class ="btn btn-primary">Print PDF</button>
+	 
+							 </form>
+					</div>
+				</div>
+		 <!-- Placed at the end of the document so the pages load faster -->
+			 <script>
+			 $('#mytabs a[href="#general"]').tab('show');
+				$('#mytabs a[href="#details"]').tab('show'); 
+				$('#mytabs a[href="#description"]').tab('show'); 
+				$('#mytabs a[href="#custom"]').tab('show');
+				$('#mytabs a[href="#inventory"]').tab('show');
+				$('#mytabs a[href="#actions"]').tab('show');
+				$('#mytabs a[href="#weblink"]').tab('show');
+
+			})
+			 </script>
+			 <script src="js/jquery.js"></script>
+			 <script src="js/bootstrap-dropdown.js"></script>
+			 <script src="js/bootstrap-scrollspy.js"></script>
+			 <script src="js/bootstrap-tab.js"></script>
+			 <script src="js/bootstrap-tooltip.js"></script>
+			 <script src="js/bootstrap-popover.js"></script>
+			 <script src="js/bootstrap-button.js"></script>
+			 <script src="js/bootstrap-collapse.js"></script>
+			 <script src="js/bootstrap-carousel.js"></script>
+			 <script src="js/bootstrap-typeahead.js"></script>
+
+
+
+
+
+		 </div>
+	 </body>
+	 </html>
