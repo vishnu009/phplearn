@@ -5,6 +5,7 @@
 <title>learn Bootstrap from scratch</title>
 <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="/twitter-bootstrap/twitter-bootstrap-v2/docs/assets/js/bootstrap-typeahead.js"></script>
 </head>
 <body>
 	<header>
@@ -91,9 +92,14 @@
 	<button class="btn btn-primary" type="submit">Submit</button>
 	<button class="btn btn-primary" type="reset">Reset</button>
 	<button type="submit" class="btn"><i class="icon-search"></i> Search</button>  
-   
+   <input type="text" class="span3"id="seaqch"data-provide="typehead" data-items="4"  />
 	</fieldset>
+	
 </form>
+<div class="well">
+<input type="text" class="span3" id="search" data-provide="typeahead" data-items="4" />
+</div>
+
 </div><!--end of container-->
 
 <footer class="myfooter span12">
@@ -101,5 +107,27 @@
 		<p>&copy;2012 MAX Software Solutions All Rights Reserverd</p>
 	</div><!--end of class copyrigts-->
 </footer>
+<script>
+var subjects = ['PHP', 'MySQL', 'SQL', 'PostgreSQL', 'HTML', 'CSS', 'HTML5', 'CSS3', 'JSON'];  
+$('#search').bootstrap-typeahead({source: subjects})
+
+</script>
+
+ <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap-transition.js"></script>
+    <script src="js/bootstrap-alert.js"></script>
+    <script src="js/bootstrap-modal.js"></script>
+    <script src="js/bootstrap-dropdown.js"></script>
+    <script src="js/bootstrap-scrollspy.js"></script>
+    <script src="js/bootstrap-tab.js"></script>
+    <script src="js/bootstrap-tooltip.js"></script>
+    <script src="js/bootstrap-popover.js"></script>
+    <script src="js/bootstrap-button.js"></script>
+    <script src="js/bootstrap-collapse.js"></script>
+    <script src="js/bootstrap-carousel.js"></script>
+    <script src="js/bootstrap-typeahead.js"></script>
 </body>
 </html>	
